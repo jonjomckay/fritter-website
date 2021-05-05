@@ -10,29 +10,20 @@
     <meta name="description" content="Fritter: A privacy-friendly Twitter frontend for mobile devices">
     <meta name="keywords" content="fritter, twitter, privacy, mobile, android, ios, app">
 
-    <link href="/build/tailwind.css" rel="stylesheet">
+    <link href="./tailwind.css" rel="stylesheet">
 
     <style type="text/css">
         /* TODO: Extract these */
-        a {
-            color: rgba(59, 130, 246, 1); /* text-blue-500 */
-            font-weight: bold;
-        }
 
-        p {
-            /* my-4 */
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
     </style>
 </head>
 
-<body class="m-4 font-sans">
+<body class="m-4 font-sans leading-normal">
 <section class="max-w-2xl lg:max-w-6xl m-auto">
     <div class="flex flex-row items-center my-4">
-        <img class="rounded-full w-16 h-16 border-2" src="assets/icon.png">
+        <img class="rounded-full w-16 h-16 border-2 border-solid border-gray-200" src="assets/icon.png">
 
-        <h1 class="ml-4 text-4xl font-black">Fritter</h1>
+        <h1 class="ml-4 text-4xl m-0 font-black">Fritter</h1>
     </div>
 
     <div class="mt-4 mb-2 text-3xl font-bold">A privacy-friendly Twitter frontend for mobile devices.</div>
@@ -42,7 +33,7 @@
     </div>
 
     <div class="flex flex-row">
-        <a href="#download" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row hover:bg-blue-500 transition duration-200">
+        <a href="#download" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
@@ -52,7 +43,7 @@
             </div>
         </a>
 
-        <a href="#contribute" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row hover:bg-blue-500 transition duration-200">
+        <a href="#contribute" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
@@ -62,7 +53,7 @@
             </div>
         </a>
 
-        <a href="#donate" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row hover:bg-blue-500 transition duration-200">
+        <a href="#donate" class="px-6 py-3 bg-black text-gray-50 font-bold mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
@@ -133,12 +124,10 @@
     <h2 class="text-3xl font-bold mt-8 mb-6">Features</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -150,12 +139,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -167,12 +154,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -184,12 +169,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -201,12 +184,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -218,12 +199,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -235,12 +214,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
@@ -261,73 +238,53 @@
     <p>Fritter will never track your actions in the app, or send your personal data to a third-party. All your data (subscriptions, groups, tweets and settings) are stored locally, on your device, and no Twitter account is required to use any feature.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
                     No account required
                 </div>
-
-                <div>
-                </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
                     No special permissions
                 </div>
-
-                <div>
-                </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
                     No tracking
                 </div>
-
-                <div>
-                </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 rounded-lg">
-            <div class="mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-            </div>
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
 
             <div class="flex flex-col">
                 <div class="font-bold">
                     All your data is stored locally
                 </div>
-
-                <div>
-                </div>
             </div>
         </div>
     </div>
 
-    <p>See our <a href="/src/privacyvacy">privacy policy</a> for more details.</p>
+    <p>See our <a href="/privacy">privacy policy</a> for more details.</p>
 </section>
 
 <section class="max-w-2xl lg:max-w-6xl m-auto">
@@ -335,31 +292,31 @@
 
     <div class="grid grid-cols-3 xl:grid-cols-5 gap-4 text-center">
         <a href="assets/screenshot-subscriptions.webp">
-            <img class="mb-2" src="assets/screenshot-subscriptions-400.webp" alt="Viewing groups and subscriptions">
+            <img class="mb-1 max-w-full" src="assets/screenshot-subscriptions-400.webp" alt="Viewing groups and subscriptions">
 
             <small>Viewing groups and subscriptions</small>
         </a>
 
         <a href="assets/screenshot-profile.webp">
-            <img class="mb-2" src="assets/screenshot-profile-400.webp" alt="Viewing a profile">
+            <img class="mb-1 max-w-full" src="assets/screenshot-profile-400.webp" alt="Viewing a profile">
 
             <small>Viewing a profile</small>
         </a>
 
         <a href="assets/screenshot-cards.webp">
-            <img class="mb-2" src="assets/screenshot-cards-400.webp" alt="Cards">
+            <img class="mb-1 max-w-full" src="assets/screenshot-cards-400.webp" alt="Cards">
 
             <small>Tweet cards</small>
         </a>
 
         <a href="assets/screenshot-saved-tweets.webp">
-            <img class="mb-2" src="assets/screenshot-saved-tweets-400.webp" alt="Viewing saved tweets">
+            <img class="mb-1 max-w-full" src="assets/screenshot-saved-tweets-400.webp" alt="Viewing saved tweets">
 
             <small>Viewing saved tweets</small>
         </a>
 
         <a href="assets/screenshot-search.webp">
-            <img class="mb-2" src="assets/screenshot-search-400.webp" alt="Searching for users">
+            <img class="mb-1 max-w-full" src="assets/screenshot-search-400.webp" alt="Searching for users">
 
             <small>Searching for users</small>
         </a>
