@@ -8,7 +8,7 @@
 }
 
 a {
-    @apply font-bold text-blue-500 no-underline;
+    @apply font-bold text-blue-400 no-underline;
 }
 
 p {

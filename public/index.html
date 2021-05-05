@@ -13,10 +13,10 @@
     <link href="./tailwind.css" rel="stylesheet">
 </head>
 
-<body class="m-4 font-sans leading-normal">
+<body class="m-4 font-sans leading-normal bg-white dark:bg-black dark:text-gray-100">
 <section class="max-w-2xl lg:max-w-6xl m-auto">
     <div class="flex flex-row items-center my-4">
-        <img alt="Fritter logo" class="rounded-full w-16 h-16 border-2 border-solid border-gray-200" src="assets/icon.png">
+        <img alt="Fritter logo" class="rounded-full w-16 h-16 border-2 border-solid border-gray-200 dark:border-gray-700" src="assets/icon.png">
 
         <h1 class="ml-4 text-4xl m-0 font-black">Fritter</h1>
     </div>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="lg:flex lg:flex-row grid grid-cols-2 gap-4">
-            <a href="#download" class="col-span-2 px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
+            <a href="#download" class="col-span-2 px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
@@ -39,7 +39,7 @@
                 </div>
             </a>
 
-            <a href="#contribute" class="px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
+            <a href="#contribute" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -49,7 +49,7 @@
                 </div>
             </a>
 
-            <a href="#donate" class="px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
+            <a href="#donate" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-row items-center hover:bg-blue-500 transition duration-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -68,8 +68,8 @@
     <p></p>
 
     <div class="lg:flex lg:flex-row grid grid-cols-1 gap-4 w-full">
-        <a href="https://f-droid.org/packages/com.jonjomckay.fritter/" target="_blank" class="px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
-            <svg class="h-6 w-6" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <a href="https://f-droid.org/packages/com.jonjomckay.fritter/" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
+            <svg class="h-6 w-6 text-white dark:text-black fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Download on F-Droid</title>
                 <path d="M20.472,10.081H3.528c-0.877,0-1.589,0.711-1.589,1.589v10.59c0,0.877,0.711,1.589,1.589,1.589h16.944 c0.877,0,1.589-0.711,1.589-1.589V11.67C22.061,10.792,21.349,10.081,20.472,10.081z M12,22.525c-3.066,0-5.56-2.494-5.56-5.56 s2.494-5.56,5.56-5.56c3.066,0,5.56,2.494,5.56,5.56S15.066,22.525,12,22.525z M12,12.411c-2.511,0-4.554,2.043-4.554,4.554 S9.489,21.519,12,21.519s4.554-2.043,4.554-4.554S14.511,12.411,12,12.411z M12,20.274c-1.563,0-2.881-1.103-3.221-2.568h1.67 c0.275,0.581,0.859,0.979,1.551,0.979c0.96,0,1.721-0.761,1.721-1.721c0-0.96-0.761-1.721-1.721-1.721 c-0.649,0-1.2,0.352-1.493,0.874H8.805c0.378-1.412,1.669-2.462,3.195-2.462c1.818,0,3.309,1.491,3.309,3.309 C15.309,18.783,13.818,20.274,12,20.274z M23.849,0.396c-0.001,0.001-0.002,0.002-0.002,0.003 c-0.002-0.002-0.004-0.003-0.006-0.005c0.001-0.001,0.002-0.003,0.004-0.004c-0.116-0.137-0.279-0.231-0.519-0.238 c-0.202,0.005-0.391,0.097-0.512,0.259l-1.818,2.353c-0.164-0.058-0.339-0.095-0.523-0.095H3.528c-0.184,0-0.358,0.038-0.523,0.095 L1.187,0.41c-0.121-0.162-0.31-0.253-0.512-0.259c-0.24,0.006-0.403,0.1-0.519,0.238c0.001,0.001,0.002,0.003,0.004,0.004 C0.157,0.395,0.155,0.397,0.153,0.399C0.153,0.398,0.152,0.397,0.151,0.396C0.085,0.474-0.146,0.822,0.139,1.22l1.909,2.471 C1.981,3.867,1.94,4.057,1.94,4.257v3.707c0,0.877,0.711,1.589,1.589,1.589h16.944c0.877,0,1.589-0.711,1.589-1.589V4.257 c0-0.2-0.041-0.39-0.109-0.566l1.909-2.471C24.146,0.822,23.915,0.474,23.849,0.396z M6.904,8.228c-0.987,0-1.787-0.8-1.787-1.787 s0.8-1.787,1.787-1.787s1.787,0.8,1.787,1.787S7.891,8.228,6.904,8.228z M17.229,8.228c-0.987,0-1.787-0.8-1.787-1.787 s0.8-1.787,1.787-1.787c0.987,0,1.787,0.8,1.787,1.787S18.216,8.228,17.229,8.228z"></path>
             </svg>
@@ -84,8 +84,8 @@
             </div>
         </a>
 
-        <a href="https://github.com/jonjomckay/fritter/releases/latest" target="_blank" class="px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
-            <svg class="h-6 w-6" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <a href="https://github.com/jonjomckay/fritter/releases/latest" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
+            <svg class="h-6 w-6 text-white dark:text-black fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Download on GitHub</title>
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
             </svg>
@@ -100,8 +100,8 @@
             </div>
         </a>
 
-        <a href="https://github.com/jonjomckay/fritter/actions" target="_blank" class="px-6 py-3 bg-black text-gray-50 font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+        <a href="https://github.com/jonjomckay/fritter/actions" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold lg:mr-4 flex flex-grow flex-row hover:bg-blue-500 transition duration-200">
+            <svg class="h-6 w-6 text-white dark:text-black fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" >
                 <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd" />
             </svg>
 
@@ -121,7 +121,7 @@
     <h2 class="text-3xl font-bold mt-8 mb-6">Features</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
             </svg>
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
             </svg>
@@ -151,7 +151,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
             </svg>
@@ -166,7 +166,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
             </svg>
@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -196,7 +196,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
             </svg>
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
@@ -235,7 +235,7 @@
     <p>Fritter will never track your actions in the app, or send your personal data to a third-party. All your data (subscriptions, groups, tweets and settings) are stored locally, on your device, and no Twitter account is required to use any feature.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
@@ -246,7 +246,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
@@ -257,7 +257,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
@@ -268,7 +268,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 rounded-lg">
+        <div class="flex flex-row items-center p-4 border-2 border-solid border-gray-200 dark:border-gray-700 rounded-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
@@ -349,8 +349,8 @@
     <p>If you'd like to support Fritter and help its continued development, here's where you can contribute financially.</p>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <a href="https://github.com/sponsors/jonjomckay" target="_blank" class="px-6 py-3 bg-black text-gray-50 flex flex-row hover:bg-blue-500 transition duration-200">
-            <svg class="h-6 w-6" fill="white" id="github-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <a href="https://github.com/sponsors/jonjomckay" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black flex flex-row hover:bg-blue-500 transition duration-200">
+            <svg class="h-6 w-6 text-white dark:text-black fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>GitHub Sponsors</title>
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
             </svg>
@@ -365,7 +365,7 @@
             </div>
         </a>
 
-        <a href="https://liberapay.com/jonjomckay/" target="_blank" class="px-6 py-3 bg-black text-gray-50 font-bold flex flex-row hover:bg-blue-500 transition duration-200">
+        <a href="https://liberapay.com/jonjomckay/" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold flex flex-row hover:bg-blue-500 transition duration-200">
             <svg class="h-6 w-6" fill="#F6C915" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Liberapay</title>
                 <path d="M2.32 0A2.321 2.321 0 0 0 0 2.32v19.36A2.321 2.321 0 0 0 2.32 24h19.36A2.32 2.32 0 0 0 24 21.68V2.32A2.32 2.32 0 0 0 21.68 0zm9.208 3.98l-2.27 9.405a2.953 2.953 0 0 0-.073.539.853.853 0 0 0 .09.432.7.7 0 0 0 .334.302c.157.077.378.126.661.147l-.49 2.008c-.772 0-1.38-.1-1.82-.3-.441-.203-.757-.477-.947-.826a2.391 2.391 0 0 1-.278-1.2c.005-.452.068-.933.188-1.445l2.074-8.67zm3.9 3.888c.61 0 1.135.092 1.576.277.44.185.802.438 1.085.76.283.32.493.696.629 1.126.136.43.204.89.204 1.379v.001c0 .794-.13 1.52-.392 2.179a5.16 5.16 0 0 1-1.086 1.706 4.84 4.84 0 0 1-1.665 1.118c-.648.267-1.353.4-2.114.4-.37 0-.74-.033-1.11-.098l-.735 2.956H9.403l2.71-11.298c.435-.13.934-.248 1.494-.351a10.045 10.045 0 0 1 1.821-.155zm-.31 2.041a4.67 4.67 0 0 0-.98.098l-1.143 4.752c.185.044.413.065.685.065.425 0 .812-.079 1.16-.237a2.556 2.556 0 0 0 .89-.661c.244-.283.435-.623.571-1.02a4.03 4.03 0 0 0 .204-1.315c0-.468-.104-.865-.31-1.192-.207-.326-.566-.49-1.077-.49z"></path>
@@ -381,7 +381,7 @@
             </div>
         </a>
 
-        <a href="https://paypal.me/jonjomckay" target="_blank" class="px-6 py-3 bg-black text-gray-50 font-bold flex flex-row hover:bg-blue-500 transition duration-200">
+        <a href="https://paypal.me/jonjomckay" target="_blank" class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black text-gray-50 font-bold flex flex-row hover:bg-blue-500 transition duration-200">
             <svg class="h-6 w-6" fill="#00457C" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>PayPal</title>
                 <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.254-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.563.563 0 0 0-.556.479l-1.187 7.527h-.506l-.24 1.516a.56.56 0 0 0 .554.647h3.882c.46 0 .85-.334.922-.788.06-.26.76-4.852.816-5.09a.932.932 0 0 1 .923-.788h.58c3.76 0 6.705-1.528 7.565-5.946.36-1.847.174-3.388-.777-4.471z"></path>
@@ -397,7 +397,7 @@
             </div>
         </a>
 
-        <div class="px-6 py-3 bg-black text-gray-50 font-bold flex flex-row hover:bg-blue-500 transition duration-200">
+        <div class="px-6 py-3 bg-black dark:bg-white text-gray-50 dark:text-black font-bold flex flex-row hover:bg-blue-500 transition duration-200">
             <svg class="h-6 w-6" fill="#F7931A" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>Bitcoin</title>
                 <path d="M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.475-1.243 14.9.358c6.43 1.605 10.342 8.115 8.738 14.548v-.002zm-6.35-4.613c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525 2.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54 2.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35 1.407s.975.225.955.236c.535.136.63.486.615.766l-1.477 5.92c-.075.166-.24.406-.614.314.015.02-.96-.24-.96-.24l-.66 1.51 1.71.426.93.242-.54 2.19 1.32.327.54-2.17c.36.1.705.19 1.05.273l-.51 2.154 1.32.33.545-2.19c2.24.427 3.93.257 4.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193 1.5-.76 1.68-1.93h.01zm-3.01 4.22c-.404 1.64-3.157.75-4.05.53l.72-2.9c.896.23 3.757.67 3.33 2.37zm.41-4.24c-.37 1.49-2.662.735-3.405.55l.654-2.64c.744.18 3.137.524 2.75 2.084v.006z"></path>
