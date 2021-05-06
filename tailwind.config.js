@@ -1,5 +1,10 @@
 module.exports = {
-    purge: ["./public/**/*.html"],
+    purge: [
+        './_includes/**/*.html',
+        './_layouts/**/*.html',
+        './_posts/*.md',
+        './*.html',
+    ],
     darkMode: 'media', // or 'media' or 'class'
     theme: {
         extend: {},

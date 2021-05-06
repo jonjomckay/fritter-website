@@ -1,4 +1,7 @@
-/.idea
-/dist
+_site
+.idea
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
 node_modules
-/public/tailwind.css
+vendor
